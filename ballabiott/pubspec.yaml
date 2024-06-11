@@ -1,0 +1,32 @@
+name: el_meneghin_ballabiott
+description: Un'app Flutter per visualizzare un orologio con il tempo decimale.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  timezone: ^0.7.0
+  video_player: ^2.2.10
+
+dev_dependencies:
+  flutter_plugin_tools:
+  flutter_test:
+    sdk: flutter
+    
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/clock_face.png
+    - assets/images/hour_hand.png
+    - assets/images/minute_hand.png
+    - assets/videos/splashscreen.mp4
+
